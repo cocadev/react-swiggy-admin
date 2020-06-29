@@ -1,0 +1,122 @@
+@import "core/components";
+@import "core/chat";
+@import "core/email";
+@import "core/contact";
+@import "core/gallery";
+@import "core/helper";
+@import "core/horizontal-timeline";
+@import "core/vertical-timeline";
+@import "core/bootstrap-social";
+@import "core/coming-soon";
+@import "core/search";
+@import "core/misc";
+@import "core/profile";
+@import "core/sidebar-content"; // vertical menu
+@import "core/responsive"; // responsive vertical menu
+@import "core/utilities";
+// @import "core/fixed-navbar";
+
+.right-float {
+    float: right;
+}
+
+.is-invalid {
+    border: 1px solid;
+    border-color: #f57e7a;
+    border-radius: 5px;
+}
+.force_display {
+    display: inline !important;
+}
+.react-bootstrap-daterangepicker-container {
+    width: 100%;
+}
+.nav-tabs .nav-link.active {
+    background-color: #f9f1f1b3;
+    border-bottom-color: #f8eeee80;
+}
+.img-center {
+    margin:auto;
+    width: 7em;
+    height: 7em;
+    border: 1px slategrey solid;
+}
+
+.detail-img {
+    width: 6em;
+    height: 6em;
+}
+
+.filter-img {
+    width: 3.4em;
+    height: 3.4em;
+}
+
+.avatar-list-image{
+    width: 3em;
+    height: 3em;
+    border: 1px slategrey solid;
+    border-radius: 2.5em;
+    margin: 0.4em 0.6em;
+}
+
+.height-133{
+    height: 228px !important;
+}
+
+.height-33{
+    height: 100px !important;
+}
+
+.height-137{
+    height: 133px !important;
+}
+.icon-position{
+    top:6px;
+    left:10px;
+}
+.icon-position-modal{
+    top:38px;
+    left:10px;
+}
+
+.date-picker{
+    border : 1px #ddd solid;
+    border-radius: 40px;
+    height: 38px;
+}
+
+.settings-edit{
+    position: absolute;
+    color: #0d47a1;
+    text-underline: #0d47a1;
+    font-weight: bold;
+    cursor: pointer;
+    right: 15px;
+    top:20px
+}
+
+.w-label{
+    width: 100px;
+    float: left;
+}
+.clear-both{
+    clear: both;
+}
+.datepicker-icon{
+    border-radius: 0;
+    padding-left: 12px;
+    flex: 1;
+    width: 367px;
+    height: 38px;
+}
+
+.table-image{
+    width: 100%;
+    height: 60px;
+    border-radius: 4px;
+}
+
+.app-sidebar{
+    background-color: #313131;
+}
